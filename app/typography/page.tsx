@@ -1,5 +1,4 @@
 import { Text, Heading, Title } from '@/components/atoms';
-import { Separator } from '@/components/ui/separator';
 
 export default function TypographyPage() {
   return (
@@ -12,8 +11,6 @@ export default function TypographyPage() {
             A comprehensive typography system built with design tokens from Figma.
           </Text>
         </div>
-
-        <Separator />
 
         {/* Title Variants */}
         <section className="space-y-8">
@@ -46,8 +43,6 @@ export default function TypographyPage() {
           </div>
         </section>
 
-        <Separator />
-
         {/* Heading Variants */}
         <section className="space-y-8">
           <Heading variant="heading">Heading Components</Heading>
@@ -71,8 +66,6 @@ export default function TypographyPage() {
             </div>
           </div>
         </section>
-
-        <Separator />
 
         {/* Text Variants */}
         <section className="space-y-8">
@@ -138,8 +131,6 @@ export default function TypographyPage() {
           </div>
         </section>
 
-        <Separator />
-
         {/* Color Variants */}
         <section className="space-y-8">
           <Heading variant="heading">Text Color Variants</Heading>
@@ -165,8 +156,6 @@ export default function TypographyPage() {
             </Text>
           </div>
         </section>
-
-        <Separator />
 
         {/* Usage Examples */}
         <section className="space-y-8">
